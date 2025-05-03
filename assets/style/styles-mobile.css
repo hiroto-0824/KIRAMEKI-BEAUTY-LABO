@@ -1,0 +1,404 @@
+@charset "UTF-8";
+
+@media (max-width: 767px) {
+
+    .header__logo {
+        width: 9rem;
+        padding-top: 1.25rem;
+        padding-bottom: 0.6rem;
+        margin-left: 1.5rem;
+    }
+
+    .header-nav {
+        gap: 1.25rem
+    }
+
+    .header__link-text {
+        font-size: 1.5rem;
+    }
+
+    .header__link--pink {
+        padding: 1.25rem 1.125rem 1.375rem 1.375rem;
+    }
+
+    .header__link--green {
+        margin-right: 1.125rem;
+        padding: 1.25rem 1.25rem 1.25rem 1.375rem;
+    }
+
+    .main-visual__title {
+        font-size: 5.25rem;
+        top: 2.875rem;
+        left: 2.25rem;
+    }
+
+    .main-visual__subtitle {
+        font-size: 2.25rem;
+        top: 8.875rem;
+        left: 6.875rem;
+    }
+
+    .main-visual__price {
+        top: 0;
+        right: 0;
+        padding: 3.125rem 3.125rem 3rem 3.25rem;
+        gap: 1.875rem;
+    }
+
+    .main-visual__price-top {
+        gap: 1.25rem
+    }
+
+    .main-visual__label--pink {
+        font-size: 1.625rem;
+        padding: 0.5rem 0.375rem 0.625rem 0.5rem;
+    }
+
+    .main-visual__label--white {
+        font-size: 3rem ;
+    }
+
+    .main-visual__price-value {
+        font-size: 9.5rem;
+    }
+
+    .main-visual__price-unit {
+        font-size: 4.5rem;
+    }
+
+    .main-visual__monthly {
+        top: 15rem;
+        right: 3.125rem;
+    }
+
+    .main-visual__monthly-price {
+        font-size: 1.75rem;
+    }
+
+    .main-visual__monthly-unit {
+        font-size: 1.125rem;
+    }
+
+    .main-visual__features {
+        top: 19.5rem;
+        right: 3.25rem;
+        gap: 1.5rem;
+    }
+
+    .main-visual__feature {
+        font-size: 2.25rem;
+        width: 16.625rem;
+        padding-top: 1.125rem;
+        padding-bottom: 1.25rem;
+    }
+
+    .campaign__label {
+        font-size: 2.625rem;
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .campaign__label span{
+        font-size: 2.75rem;
+        font-weight: 500;
+        display: inline-block;
+    }
+
+    .campaign__title {
+        font-size: 2.75rem;
+        padding: 0.5rem 9.75rem 0.75rem 9.5rem
+    }
+
+    .campaign__gift {
+        font-size: 3.375rem;
+        padding-top: 1.1rem;
+        padding-bottom: 1rem;
+    }
+
+    .campaign__gift strong {
+        font-size: 5.25rem;
+    }
+
+    .campaign__details {
+        font-size: 1.25rem; 
+        margin-bottom: 2rem;
+    }
+
+    .trial {
+        gap: 1.625rem;
+    }
+
+    .trial__title {
+        font-size: 2.625rem;
+        margin-top: 2.5rem;
+    }
+
+    .trial__cta{
+        padding: 1.6rem 4rem 1.5rem 8.75rem;
+        margin-bottom: 3.75rem;
+    }
+
+    .trial__text {
+        font-size: 2.625rem;
+        max-width: 26.5rem;
+        line-height: 3.5rem;
+    }
+
+    .trial-detail {
+        gap: 1.875rem;
+    }
+
+    .trial-detail__title {
+        font-size: 2.125rem;
+        padding: 1.375rem 15rem 1.375rem 14.75rem
+    }
+
+    .trial-detail__content {
+        margin-bottom: 5.5rem;
+    }
+
+    .trial-detail__item {
+        font-size: 1.75rem;
+    }
+    
+    .trial-detail__item span {
+        font-size: 1.375rem;
+    }
+
+    .features {
+        margin-bottom: 1.5rem;
+    }
+
+    .features__intro {
+        margin-top: 5.125rem;
+        margin-bottom: 2.875rem;
+    }
+
+    .features__brand {
+        font-size: 2.25rem;
+    }
+
+    .features__brand span {
+        font-size: 1.875rem;
+    }
+
+    .features__brand strong {
+        font-size: 2.25rem;
+    }
+
+    .glitter {
+        font-size: 4rem;
+    }
+
+    .glitter img {
+        display: block;
+        width: 4.66375rem;
+    }
+
+    .features__points {
+        gap: 4rem;
+    }
+
+    .features__point {
+        width: 43.75rem;
+    }
+
+    .features__heading {
+        font-size: 2.25rem;
+        padding-top: 1.75rem;
+        padding-bottom: 1.75rem;
+    }
+
+    .features__desc {
+        font-size: 1.75rem;
+        max-width: 38.875rem;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+        line-height: 2.625rem;
+    }
+
+    .comparison {
+        gap: 2.75rem;
+    }
+
+    .comparison__item {
+        width: 17.875rem;
+    }
+
+    .comparison__logo {
+        padding: 2.5rem 4.25rem 2.875rem 4.5rem;
+    }
+
+    .comparison__text {
+        font-size: 1.75rem;
+        margin-top: 0.8rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .features__subheading {
+        font-size: 2.875rem;
+        margin-top: 1.5rem;
+        margin-bottom: 3.3rem;
+    }
+
+    .plan--full {
+        width: 38.875rem;
+    }
+    
+    .plan__area {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+    }
+
+    .plan__area--head {
+        top: 0;
+        left: 14rem;
+    }
+
+    .plan__area--body {
+        top: 13.375rem;
+        left: 16.25rem;
+    }
+
+    .plan__areahand {
+        top: 18rem;
+        left: 16.875rem;
+    }
+
+    .plan__area--lower_body {
+        top: 27.25rem;
+        left: 16.5rem;
+    }
+
+    .plan__area--knees {
+        bottom: 8.75rem;
+        left: 17.75rem;
+    }
+
+    .plan__area--leg {
+        bottom: 6.5rem;
+        left: 16.875rem;
+    }
+
+    .plan__area--head_back {
+        top: 5.375rem;
+        right: 0.875rem;
+    }
+    .plan__area--back {
+        top: 11.25rem;
+        right: 0.625rem;
+    }
+
+    .plan__area--hip {
+        top: 26.375rem;
+        right: 0.125rem;
+    }
+
+    .features__subheading--marge {
+        margin-top: 6.25rem;
+        margin-bottom: 3.75rem;
+    }
+
+    .plan--partial {
+        flex-direction: column;
+        gap: 2.625rem;
+        margin-bottom: 2.625rem;
+    }
+
+    .plan--partial img {
+        width: 40.375rem;
+    }
+
+    .features__point--support {
+        padding-bottom: 0.5rem;
+    }
+
+    .course {
+        margin-top: 2rem;
+        margin-bottom: 2.4rem;
+    }
+
+    .course__label {
+        font-size: 2.25rem;
+        margin-bottom: 1rem;
+    }
+
+    .course__title {
+        margin-bottom: 3.4rem;
+    }
+    .course__list {
+        flex-direction: column;
+        gap: 3.75rem;
+    }
+
+    .course__item {
+        width: 43.75rem;
+    }
+
+    .course__name {
+        font-size: 2.25rem;
+        padding-top: 2rem;
+        padding-bottom: 1.75rem;
+    }
+    .course__desc {
+        font-size: 1.75rem;
+        max-width: 38.5rem;
+        line-height: 2.625rem;
+        padding-top: 1.785rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .course__item img {
+        width: 38.75rem;
+        margin-bottom: 2.25rem;
+    }
+
+    .voice {
+        margin-bottom: 1.5rem;
+    }
+
+    .voice__title {
+        padding-top: 3.5rem;
+        padding-bottom: 2.375rem;
+    }
+
+    .voice__course {
+        font-size: 2.25125rem;
+        padding-top: 1.875rem;
+        padding-bottom: 1.875rem;
+    }
+
+    .voice__person img {
+        padding: 1.3rem 1.875rem 1.75rem 1.75rem;
+    }
+
+    .voice__name {
+        font-size: 2rem;
+    }
+
+    .voice__comment {
+        font-size: 1.75125rem;
+        max-width: 21.5rem;
+        line-height: 2.625rem;
+        margin-top: 1.625rem;
+    }
+
+    .swiper-pagination-bullet {
+        width: 1.875rem !important;
+        height: 1.875rem !important;
+        margin: 2.5rem 0.9375rem 2.375rem 0.9375rem !important; /* 間隔調整 */
+    }
+
+    .footer {
+        margin-top: 1.5rem;
+    }
+
+    .footer__logo {
+        width: 9.25 rem;
+    }
+
+    .footer__logo img {
+        padding-top: 1.75rem;
+        padding-bottom: 1.5rem;
+    }
+}
