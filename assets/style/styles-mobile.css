@@ -177,14 +177,10 @@
     .features__brand {
         font-size: 2.25rem;
     }
-
-    .features__brand span {
-        font-size: 1.875rem;
-    }
-
-    .features__brand strong {
-        font-size: 2.25rem;
-    }
+    
+.features__brand img {
+    width: 25rem;
+}
 
     .glitter {
         font-size: 4rem;
@@ -227,6 +223,14 @@
 
     .comparison__logo {
         padding: 2.5rem 4.25rem 2.875rem 4.5rem;
+    }
+
+    .comparison__label {
+        font-size: 2.25rem;
+    }
+
+    .comparison__logo--black {
+        background-color: #fdf0f5;
     }
 
     .comparison__text {
@@ -300,13 +304,24 @@
     }
 
     .plan--partial {
-        flex-direction: column;
-        gap: 2.625rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3列 */
+        grid-template-rows: repeat(2, auto);   /* 2行（自動の高さ） */
+        row-gap: 2.625rem;     /* 縦方向（行間）の隙間 */
+        column-gap: 1.5rem;  /* 横方向（列間）の隙間 */
         margin-bottom: 2.625rem;
     }
 
+    .plan--wrapper {
+        gap: 1rem;
+    }
+
     .plan--partial img {
-        width: 40.375rem;
+        width: 12.5rem;
+    }
+
+    .plan--wrapper p {
+        font-size: 1.75rem;
     }
 
     .features__point--support {
@@ -394,7 +409,7 @@
     }
 
     .footer__logo {
-        width: 9.25 rem;
+        width: 9.25rem;
     }
 
     .footer__logo img {
